@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Binding.TensorFlow.Lite.Support</id>
+    <version>0.0.0-nightly</version>
+    <title>Binding.TensorFlow.Lite.Support</title>
+    <authors>Matheus Souza</authors>
+    <owners>Matheus Souza</owners>
+    <projectUrl>https://github.com/tensorflow/tensorflow</projectUrl>
+    <iconUrl>https://d2j3q9yua85jt3.cloudfront.net/img/e2e4620788fca9ae0e73b271001c6aed</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TensorFlow Lite Support Binding.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+</package>

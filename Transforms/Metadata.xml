@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeWithCropOrPadOp']"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.common.ops']/class[@name='CastOp']"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.common.ops']/class[@name='NormalizeOp']"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='Rot90Op']"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeOp']"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.image']/class[@name='ImageProcessor.Builder']/method[@name='build' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.common']/class[@name='TensorProcessor.Builder']/method[@name='build' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TensorOperatorWrapper']"/>
+    
+</metadata>
