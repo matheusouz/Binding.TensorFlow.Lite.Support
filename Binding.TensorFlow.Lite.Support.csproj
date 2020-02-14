@@ -50,11 +50,15 @@
     <LibraryProjectZip Include="Jars\tensorflow-lite-support-0.0.0-nightly.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
+
   <Target Name="BeforeBuild">
+    <RemoveDir Directories="lib" />
   </Target>
+
   <Target Name="AfterBuild">
+    <Copy SourceFiles="bin\Debug\Binding.TensorFlow.Lite.Support.dll" DestinationFolder="lib\MonoAndroid10" ContinueOnError="true" />
+    <RemoveDir Directories="bin" />
+    <RemoveDir Directories="obj" />
   </Target>
-  -->
+
 </Project>
